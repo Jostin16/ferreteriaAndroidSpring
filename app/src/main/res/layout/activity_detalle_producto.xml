@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="idat.com.appferreteria.view.DetalleProductoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtvnombreproducto" />
+
+    <TextView
+        android:id="@+id/idtvnombreproducto"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:textColor="@color/yellow_500"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idtvstock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/idtextviewstock"
+        app:layout_constraintTop_toBottomOf="@+id/idtvprecio" />
+
+    <TextView
+        android:id="@+id/idtvmarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="44dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textviewmarca"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/idtvprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/idtextviewprecio"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmarca" />
+
+    <TextView
+        android:id="@+id/idtextviewstock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/teal_700"
+        android:text="STOCK"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtvprecio" />
+
+    <TextView
+        android:id="@+id/textviewmarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="44dp"
+        android:text="MARCA"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/idtextviewprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/teal_700"
+        android:text="PRECIO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmarca" />
+
+    <Button
+        android:id="@+id/idbtnrestar"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+        app:icon="@drawable/ic_baseline_exposure_neg_1_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtextviewstock" />
+
+    <Button
+        android:id="@+id/idbtnsumar"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        app:icon="@drawable/ic_baseline_exposure_plus_1_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtvstock" />
+
+    <TextView
+        android:id="@+id/idtvcantidadelegida"
+        android:layout_width="64dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#009688"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/idbtnsumar"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/idbtnrestar"
+        app:layout_constraintTop_toBottomOf="@+id/idtvstock" />
+
+    <Button
+        android:id="@+id/idbtnComprar"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="COMPRAR"
+        app:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtvcantidadelegida" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

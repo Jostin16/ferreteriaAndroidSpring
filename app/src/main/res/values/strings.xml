@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TECHITO FUERTE APP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintUsuario">Ingrese su usuario</string>
+    <string name="hintPassword">Ingrese su password</string>
+    <string name="textboton">Ingresar</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="valiuserpass">Usuario y password son obligatorios.</string>
+    <string name="errorapi">Error al conectarse al servidor, intente de nuevo.</string>
+    <string name="mnk_error_password">Contraseña debe contener al menos 8 caracteres.</string>
+    <string name="mnk_error_username">Usuario debe contener al menos 8 caracteres.</string>
+    <string name="mnk_button_next">Siguiente</string>
+    <string name="mnk_button_cancel">Cancelar</string>
+    <string name="mnk_app_name">LOGIN TECHITO FUERTE</string>
+    <string name="mnk_hint_usuario">Ingrese su usuario</string>
+    <string name="mnk_hint_password">Ingrese su contraseña</string>
+    <string name="val_comentario">Comentarios</string>
+    <string name="title_comentario">Comentarios</string>
+    <string name="title_categoria">CATEGORIAS</string>
+    <string name="productos">MATERIALES</string>
+    <string name="promociones">Promociones</string>
+    <string name="cerrar">Cerrar sesión</string>
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="idat.com.appferreteria.view.Registrar_Activity"
+    android:padding="8dp"
+    android:orientation="horizontal">
+
+        <LinearLayout
+                    android:id="@+id/linearParte3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/txtInputDireccion"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Ingrese Direccion"
+                            app:startIconDrawable="@drawable/ic_baseline_room_24">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txtDireccion"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress"
+                                    android:textSize="15sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/txtInputProvincia"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Provincia"
+                            app:startIconDrawable="@drawable/ic_baseline_room_24">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txtProvincia"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress"
+                                    android:textSize="15sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputNombre"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="185dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Ingrese Nombre"
+                                    app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/txtNombre"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="textEmailAddress"
+                                            android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputApellido"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Ingrese Apellido"
+                                    app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/txtApellido"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress"
+                                        android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputDistrito"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="185dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Distrito"
+                                    app:startIconDrawable="@drawable/ic_baseline_room_24">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/txtDistrito"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="textEmailAddress"
+                                            android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputDepartamento"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Departamento"
+                                    app:startIconDrawable="@drawable/ic_baseline_room_24">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/txtDepartamento"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="textEmailAddress"
+                                            android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputTipoDoc"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="188dp"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Tipo de Doc."
+                                    app:startIconDrawable="@drawable/ic_baseline_article_24">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/txtTipodedoc"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="textEmailAddress"
+                                            android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/txtInputNumero"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Ingrese DNI"
+                                    app:startIconDrawable="@drawable/ic_baseline_article_24">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/txtNumero"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textEmailAddress"
+                                        android:maxLength="8"
+                                        android:textSize="15sp" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                        </TableRow>
+
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/txtInputUsuario"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Ingrese su correo eletrónico"
+                            app:startIconDrawable="@drawable/ic_email">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txtEmail"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress"
+                                    android:textSize="15sp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputPassword"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cree su contraseña"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/ic_lock">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtContraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnregistrar"
+                    android:layout_width="188dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Registrar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/btningresar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="Ingresar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnregistrar" />
+            </TableRow>
+</LinearLayout>
+</LinearLayout>

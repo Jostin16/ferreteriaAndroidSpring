@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow_200">#ff7c5d</color>
+    <color name="yellow_500">#ff2d13</color>
+    <color name="yellow_700">#fe1906</color>
+    <color name="teal_200">#fccb80</color>
+    <color name="teal_700">#f07c00</color>
+    <color name="black">#0a192f</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColorPrimary">#ff7c5d</color>
+    <color name="textInputOutlineColor">#ff5939</color>
+    <color name="colorPrimaryDark">#d90000</color>
+</resources>
